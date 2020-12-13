@@ -7,3 +7,5 @@
 * [test-photo](/img/)
 * [test-second](/second/)
 * [test-baidu](https://www.baidu.com)
+
+<base target="_blank" />
