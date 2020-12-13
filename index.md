@@ -1,5 +1,10 @@
-## 你好
+## Let's Gegin
 
-这里是Simpidbit。
+> This is Simpidbit, a middle school student from ZH_CN.
 
-13.Dec.2020
+## Index
+
+* [test-photo](/img/)
+
+* [test-second](/second/)
+* [test-baidu](https://www.baidu.com)
