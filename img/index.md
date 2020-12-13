@@ -1,3 +1,3 @@
-# 这里有一张图片
+# This is a photo for test
 
 ![avatar](./head-zyx.png)
