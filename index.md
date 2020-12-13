@@ -10,4 +10,3 @@
 
 > ### 喜欢萍子～～～
 <base target="_blank" />
-<link rel="shortcut icon" href="./favicon.ico">
