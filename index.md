@@ -1,6 +1,6 @@
-## Let's Begin
+## Hello world
 
-> This is Simpidbit, a middle school student from ZH_CN.
+> I'm Simpidbit Isaiah (or Simpidbit), a middle school student from China.
 >
 > The programming languages which I like are `C++`, `Python`, `Assembly(AT&T)` and so on.
 >
@@ -8,11 +8,13 @@
 >
 > All pages were writen by `Markdown`.
 
+
+
 ## Index
+* [C/C++](javascript:alert("TODO...");)
+* [Python](javascript:alert("TODO...");)
+* [TCP/IP](javascript:alert("TODO...");)
 
-* [test-photo](/img/)
-* [test-second](/second/)
-* [test-baidu](https://www.baidu.com/)
 
-> ### 喜欢萍子～～～
+
 <base target="_blank" />
