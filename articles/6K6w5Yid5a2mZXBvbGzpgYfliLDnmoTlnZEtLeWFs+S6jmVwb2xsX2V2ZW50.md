@@ -334,3 +334,25 @@ int main()
 找到不同点了吗？就在第89行，`/* 新客户端的socket文件描述符 塞进 epoll 里监听着 */`这个注释的下面一点，accept()函数下面一行。
 
 虽说epoll_ctl()函数中已经把客户端socket的文件描述符作为第三个参数传入，但epoll_event结构体里的data里的fd，一定不能忘记！！！
+
+
+
+<base target="_blank" />
+<script>
+	var audio = document.getElementById("music-audio");
+	if (audio == null) {
+		console.log("ERROR::audio is null.");
+	}
+	else {
+		audio.volume = 0.06;
+	}
+	
+	function gotoURL(URL) {
+		if (audio != null) {
+			if (!audio.paused) {
+				audio.pause();
+			}
+		}
+	window.open(URL);
+	}
+</script>
