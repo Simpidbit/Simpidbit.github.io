@@ -11,7 +11,7 @@
 ---
 
 
-<audio id="music-audio" src="./background.mp3" controls="controls" loop>
+<audio id="music-audio" src="./background.mp3" controls="controls" autoplay loop>
 您的浏览器不支持 audio 标签.
 </audio>
 >  Nuit Silencieuse - Days.mp3
