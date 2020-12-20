@@ -353,6 +353,6 @@ int main()
 				audio.pause();
 			}
 		}
-	window.open(URL);
+	window.location.href(URL);
 	}
 </script>

@@ -34,13 +34,13 @@
 	else {
 		audio.volume = 0.06;
 	}
-	
+
 	function gotoURL(URL) {
 		if (audio != null) {
 			if (!audio.paused) {
 				audio.pause();
 			}
 		}
-	window.open(URL);
+	window.location.href(URL);
 	}
 </script>
