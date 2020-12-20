@@ -26,12 +26,5 @@
   * [记初学epoll遇到的坑--关于epoll_event](/articles/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50.md)
 
 <base target="_blank" />
-<script>
-	var audio = document.getElementById("music-audio");
-	if (audio == null) {
-		console.log("ERROR::audio is null.");
-	}
-	else {
-		audio.volume = 0.05;
-	}
+<script src="./main.js">
 </script>
