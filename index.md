@@ -23,7 +23,7 @@
 * [C/C++](javascript:alert("TODO...");)
 * [Python](javascript:alert("TODO...");)
 * Socket
-  * [记初学epoll遇到的坑--关于epoll_event](javascript:gotoURL("/articles/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50.md");)
+  * [记初学epoll遇到的坑--关于epoll_event](javascript:gotoURL('/articles/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50.md'))
 
 <base target="_blank" />
 <script>
@@ -36,11 +36,9 @@
 	}
 
 	function gotoURL(URL) {
-		if (audio != null) {
-			if (!audio.paused) {
-				audio.pause();
-			}
+		if (!audio.paused) {
+			audio.pause();
 		}
-	window.location.href(URL);
+		window.location.href(URL);
 	}
 </script>

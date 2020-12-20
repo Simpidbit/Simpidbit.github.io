@@ -346,13 +346,11 @@ int main()
 	else {
 		audio.volume = 0.06;
 	}
-	
+
 	function gotoURL(URL) {
-		if (audio != null) {
-			if (!audio.paused) {
-				audio.pause();
-			}
+		if (!audio.paused) {
+			audio.pause();
 		}
-	window.location.href(URL);
+		window.location.href(URL);
 	}
 </script>
