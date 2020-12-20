@@ -348,9 +348,10 @@ int main()
 	}
 
 	function gotoURL(URL) {
+		var audio = document.getElementById("music-audio");
 		if (!audio.paused) {
 			audio.pause();
 		}
-		window.navigate(URL);
+		window.open(URL);
 	}
 </script>

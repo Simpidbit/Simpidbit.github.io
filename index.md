@@ -36,6 +36,7 @@
 	}
 
 	function gotoURL(URL) {
+		var audio = document.getElementById("music-audio");
 		if (!audio.paused) {
 			audio.pause();
 		}
