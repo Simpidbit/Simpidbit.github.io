@@ -13,5 +13,5 @@ var sounds = [
     ];
 
 
-musicinfo.value = sounds[randindex][0];
+musicinfo.innerHTML = sounds[randindex][0];
 music.src = sounds[randindex][1];
