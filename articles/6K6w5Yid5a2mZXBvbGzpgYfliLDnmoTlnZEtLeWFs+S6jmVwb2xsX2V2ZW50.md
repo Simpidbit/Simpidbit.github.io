@@ -10,10 +10,6 @@
 > * [PART_02 问题发生](#part_02-问题发生)
 > * [PART_03 问题解决](#part_03-问题解决)
 
-<audio id="music-audio" src="./music/Bloom-of-youth.mp3" controls="controls" loop>
-您的浏览器不支持 audio 标签.
-</audio>
->  《Bloom of Youth》	by 清水淳一
 
 
 
@@ -338,12 +334,3 @@ int main()
 
 
 <base target="_blank" />
-<script>
-	var audio = document.getElementById("music-audio");
-	if (audio == null) {
-		console.log("ERROR::audio is null.");
-	}
-	else {
-		audio.volume = 0.05;
-	}
-</script>
