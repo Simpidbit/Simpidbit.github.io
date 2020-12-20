@@ -14,7 +14,7 @@
 <audio id="music-audio" controls="controls" autoplay loop>
 您的浏览器不支持 audio 标签.
 </audio>
-<blockquote><p id="music-info">《Nuit Silencieuse》	by Days</p></blockquote>
+<blockquote><p id="music-info"></p></blockquote>
 
 
 
