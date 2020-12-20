@@ -16,5 +16,4 @@ window.onload = function() {
 
     musicinfo.innerHTML = sounds[randindex][0];
     music.src = sounds[randindex][1];
-    location.reload();
 }
