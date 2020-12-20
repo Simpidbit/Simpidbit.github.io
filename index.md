@@ -39,6 +39,6 @@
 		if (!audio.paused) {
 			audio.pause();
 		}
-		window.location.href(URL);
+		window.navigate(URL);
 	}
 </script>
