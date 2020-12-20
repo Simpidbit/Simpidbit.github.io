@@ -344,14 +344,6 @@ int main()
 		console.log("ERROR::audio is null.");
 	}
 	else {
-		audio.volume = 0.06;
-	}
-
-	function gotoURL(URL) {
-		var audio = document.getElementById("music-audio");
-		if (!audio.paused) {
-			audio.pause();
-		}
-		window.open(URL);
+		audio.volume = 0.05;
 	}
 </script>
