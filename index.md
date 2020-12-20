@@ -40,6 +40,6 @@
 		if (!audio.paused) {
 			audio.pause();
 		}
-		window.navigate(URL);
+		window.open(URL);
 	}
 </script>
