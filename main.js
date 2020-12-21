@@ -4,7 +4,6 @@ window.onload = function() {
     
     var musicinfo = document.getElementById("music-info");
     
-    var randindex = Math.floor(Math.random() * 10 / 2);
     var sounds = [
             ["小星星变奏曲 | Wolfgang Amadeus Mozart", "./sounds/小星星变奏区.mp3"],
             ["Bloom of Youth | 清水淳一", "./sounds/Bloom-of-Youth.mp3"],
@@ -12,7 +11,7 @@ window.onload = function() {
             ["Nuit Silencieuse | Days", "./sounds/Nuit-Silencieuse.mp3"],
             ["The Right Path | Thomas Greenberg", "./sounds/The-Right-Path.mp3"]
         ];
-    
+    var randindex = Math.floor(Math.random() * sounds.length);
 
     musicinfo.innerHTML = sounds[randindex][0];
     music.src = sounds[randindex][1];
