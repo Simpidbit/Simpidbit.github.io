@@ -1,11 +1,7 @@
 ## Hello world
 
 > I'm Simpidbit Isaiah (or Simpidbit), a middle school student from China.
->
 > The programming languages which I like are `C++`, `Python`, `Assembly(AT&T)` and so on.
->
-> Also, I like Linux `Socket` programming, `HTTP(S)` and so on.
->
 > All pages were writen by `Markdown`.
 
 ---
