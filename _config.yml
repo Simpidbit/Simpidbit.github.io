@@ -1,8 +1,8 @@
 # 1. Site Settings
 title               : Hello World
 owner               : "Simpidbit"
-## url                : "https://akiritsu.github.io"
-## baseurl            : "/pRoJEct-VeXEd"
+url                : "https://simpidbit.gitee.io"
+baseurl            : "/"
 permalink           : /:title/
 description         : "Keep it simple, stupid"
 markdown            : kramdown
