@@ -16,3 +16,4 @@
   * [记初学epoll遇到的坑--关于epoll_event](/articles/记初学epoll遇到的坑--关于epoll_event.md )
 
 <base target="_blank" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
