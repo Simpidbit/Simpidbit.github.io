@@ -170,15 +170,15 @@ int main()
 
 来运行一下(图片按时间顺序)：
 
-![图1](./images/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50-01.png)
+![图1](/img/epollfirst/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50-01.png)
 
-![图2](./images/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50-02.png)
+![图2](/img/epollfirst/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50-02.png)
 
-![图3](./images/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50-03.png)
+![图3](/img/epollfirst/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50-03.png)
 
-![图4](./images/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50-04.png)
+![图4](/img/epollfirst/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50-04.png)
 
-![图5](./images/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50-05.png)
+![图5](/img/epollfirst/6K6w5Yid5a2mZXBvbGzpgYfliLDnmoTlnZEtLeWFs+S6jmVwb2xsX2V2ZW50-05.png)
 
 我在客户端连接服务端，并发送了一句hello，发现没反应，又在服务端输入了一些东西，这才有反应，也就是说...epoll跑去监听0号文件描述符(标准输入)了？？？
 
