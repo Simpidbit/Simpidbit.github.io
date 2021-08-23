@@ -29,7 +29,7 @@ div.main-page-content {
 blockquote {        /* Jekyll 抄的 */
     background-color: rgba(255, 255, 255, 0.25);
     font-size: 110%;
-    line-height: 0.7;
+    line-height: 1.5;
     box-sizing: border-box;
     margin: 0 0;
     padding: 0 0 0 1.4rem;
