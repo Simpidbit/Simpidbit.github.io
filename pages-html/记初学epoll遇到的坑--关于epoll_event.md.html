@@ -1,4 +1,13 @@
-<h1>记初学epoll遇到的坑--关于epoll_event</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+        <script src="/static/js/main.js"></script>
+    </head>
+    <body>
+        <div class="main-page-content">
+            <h1>记初学epoll遇到的坑--关于epoll_event</h1>
 <hr>
 <blockquote><p>2020-12-20</p>
 <h2>Index</h2>
@@ -297,3 +306,7 @@ int main()
 </code></pre>
 <p>找到不同点了吗？就在第89行，<code>/* 新客户端的socket文件描述符 塞进 epoll 里监听着 */</code>这个注释的下面一点，accept()函数下面一行。</p>
 <p>虽说epoll_ctl()函数中已经把客户端socket的文件描述符作为第三个参数传入，但epoll_event结构体里的data里的fd，一定不能忘记！！！</p>
+
+        </div>
+    </body>
+</html>
