@@ -1,0 +1,88 @@
+@charset "utf-8";
+@font-face {
+  font-family: "feathericon";
+  src: url("../font/feathericon.woff");
+}
+
+body {
+    background-image: url("../image/limeade.jpg");
+    font-family: feathericon;
+    font-size: 130%;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.main-page-content {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 3px 5px 5px 3px rgba(50, 50, 50, 0.2);
+
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1% 5% 1% 5%;
+}
+
+blockquote {        /* Jekyll 抄的 */
+    background-color: rgba(255, 255, 255, 0.25);
+    font-size: 110%;
+    line-height: 0.7;
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0 0 1.4rem;
+    width: 100%;
+    overflow: auto;
+    border-left: 0.3rem #9c8079 solid;
+    color: #5c6b72;
+}
+
+code {
+    background-color: rgba(247, 220, 102, 0.3);
+    border-radius: 10px;
+    font-size: 130%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+code[class]{        /* CSDN 抄的 */
+    -webkit-font-smoothing: antialiased;
+    tab-size: 4;
+    font-weight: normal;
+    outline: 0;
+    --tw-shadow: 0 0 #0000;
+    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(66, 153, 225, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    box-sizing: border-box;
+    font-family: Source Code Pro,DejaVu Sans Mono,Ubuntu Mono,Anonymous Pro,Droid Sans Mono,Menlo,Monaco,Consolas,Inconsolata,Courier,monospace,PingFang SC,Microsoft YaHei,sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 0!important;
+    border-radius: 4px;
+    min-width: 94%;
+    display: block;
+    -webkit-text-size-adjust: none;
+    overflow-x: auto;
+    white-space: pre;
+    background: #282c34;
+    background-color: #282c34;
+    color: #abb2bf;
+    word-wrap: normal;
+    word-break: break-all;
+    position: unset;
+}
+
+span.statement {
+    color: #ff9248;
+}
+
+span.type {
+    color: #0072ff;
+    font-weight: 700;
+}
