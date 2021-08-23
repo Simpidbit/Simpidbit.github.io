@@ -43,5 +43,6 @@ function highBright() {
 
 
 window.onload = function() {
-    highBright();
+    // TODO...
+    //highBright();
 };
